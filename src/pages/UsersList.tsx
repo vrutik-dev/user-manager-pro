@@ -24,7 +24,7 @@ const UsersList = () => {
     window.location.href = `/edit/${id}`;
   };
 
-  const handleDelete = async (id: number) => {
+  const handleDelete = async (id: string) => {
     const confirmed = window.confirm(
       "Are you sure you want to delete this user?"
     );
