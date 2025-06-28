@@ -20,7 +20,7 @@ const UsersList = () => {
       });
   }, []);
 
-  const handleEdit = async (id: number) => {
+  const handleEdit = async (id: string) => {
     window.location.href = `/edit/${id}`;
   };
 
